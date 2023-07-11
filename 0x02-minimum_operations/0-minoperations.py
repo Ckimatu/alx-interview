@@ -22,7 +22,7 @@ def minOperations(n: int) -> int:
             clipboard = current_chars
             operations += 1
 
-            current_chars += clipboard
+        current_chars += clipboard
         operations += 1
 
-        return operations
+    return operations
