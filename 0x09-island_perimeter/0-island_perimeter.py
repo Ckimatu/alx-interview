@@ -12,7 +12,7 @@ def check_val(x):
     return
 
 
-def island_primeter(grid):
+def island_perimeter(grid):
     """ returns the perimeter of the island described in grid"""
 
     row = len(grid)
