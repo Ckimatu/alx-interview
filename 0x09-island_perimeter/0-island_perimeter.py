@@ -9,7 +9,7 @@ def check_val(x):
     """check value x"""
     if (x == 0):
         return 1
-    return
+    return 0
 
 
 def island_perimeter(grid):
