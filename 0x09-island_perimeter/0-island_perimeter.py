@@ -4,15 +4,17 @@
 Contains functions that returns the perimeter of island in grid
 """
 
-def check_val(x):
-        """ check value x"""
-        if (x==0):
-            return 1
-        return 0
 
-def island_perimeter(grid):
+def check_val(x):
+    """check value x"""
+    if (x == 0):
+        return 1
+    return
+
+
+def island_primeter(grid):
     """ returns the perimeter of the island described in grid"""
-    
+
     row = len(grid)
     col = len(grid[0])
     assert (1 <= row and col <= 100), "length must be between 1 and 100"
