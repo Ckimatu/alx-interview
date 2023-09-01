@@ -5,13 +5,13 @@ Contains functions that returns the perimeter of island in grid
 """
 
 def check_val(x):
-        # check value x
+        """ check value x"""
         if (x==0):
             return 1
         return 0
 
 def island_perimeter(grid):
-    # returns the perimeter of the island described in grid
+    """ returns the perimeter of the island described in grid"""
     
     row = len(grid)
     col = len(grid[0])
