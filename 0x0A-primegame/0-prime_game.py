@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 """
-Module for solving prime game question 
+Module for solving prime game question
 """
+
 
 def isWinner(x, nums):
     """checks for the winner"""
